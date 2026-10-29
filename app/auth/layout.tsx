@@ -1,3 +1,4 @@
+import { FullkodCredit } from "@/components/FullkodCredit";
 import type { Metadata } from "next";
 
 // Helper para obtener la URL base del sitio
@@ -65,5 +66,12 @@ export default function AuthLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <div className="relative">
+      {children}
+      <div className="pointer-events-none absolute inset-x-0 bottom-3 flex justify-center px-6">
+        <FullkodCredit className="pointer-events-auto" />
+      </div>
+    </div>
+  );
 }

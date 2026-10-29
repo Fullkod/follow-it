@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { useAuth } from "@/lib/contexts/AuthContext";
 import Image from "next/image";
 import Link from "next/link";
+import { FullkodCredit } from "@/components/FullkodCredit";
 
 function Header() {
   const { user, userLoading } = useAuth();
@@ -731,21 +732,7 @@ export default function PreciosPage() {
           </div>
           <div className="border-t border-gray-200 pt-8 mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-gray-500 text-sm">
             <p>&copy; 2026 Follow It. Todos los derechos reservados.</p>
-            <a
-              href="https://fullkod.com/?ref=follow-it"
-              target="_blank"
-              rel="noopener"
-              className="inline-flex items-center gap-1.5 hover:text-gray-700"
-            >
-              Desarrollado por
-              <Image
-                src="/brand/fullkod-symbol.svg"
-                alt=""
-                width={14}
-                height={14}
-              />
-              <span className="font-semibold text-gray-700">Fullkod</span>
-            </a>
+            <FullkodCredit />
           </div>
         </div>
       </footer>
