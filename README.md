@@ -375,3 +375,8 @@ Este es un proyecto privado. Para contribuciones, contacta al equipo de desarrol
 ---
 
 **Desarrollado con ❤️ para gestión eficiente de repartos**
+
+<!-- fullkod-signature -->
+---
+
+<a href="https://fullkod.com/?ref=follow-it"><img src="https://fullkod.com/brand/fullkod-symbol.svg" width="20" height="20" align="center" alt="Fullkod"></a> Built by **[Fullkod](https://fullkod.com/?ref=follow-it)**
