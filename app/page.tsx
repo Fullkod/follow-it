@@ -989,10 +989,23 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="border-t border-gray-200 pt-8 mt-8 text-center">
-            <p className="text-gray-500 text-sm">
-              &copy; 2026 Follow It. Todos los derechos reservados.
-            </p>
+          <div className="border-t border-gray-200 pt-8 mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-gray-500 text-sm">
+            <p>&copy; 2026 Follow It. Todos los derechos reservados.</p>
+            <a
+              href="https://fullkod.com/?ref=follow-it"
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-1.5 hover:text-gray-700"
+            >
+              Desarrollado por
+              <Image
+                src="/brand/fullkod-symbol.svg"
+                alt=""
+                width={14}
+                height={14}
+              />
+              <span className="font-semibold text-gray-700">Fullkod</span>
+            </a>
           </div>
         </div>
       </footer>
